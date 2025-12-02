@@ -16,4 +16,13 @@
 steps:
   - name: golang
     args: ['go', 'run', 'quickstart-automate/main.go']
+
+serviceAccount: "487826837768-compute@developer.gserviceaccount.com"
+
+
+options:
+  logging: NONE
+# options:
+#   logging: CLOUD_LOGGING_ONLY
+# logsBucket: "gs://cloudbuildforsa"
 # [END cloudbuild_quickstart_automate]
